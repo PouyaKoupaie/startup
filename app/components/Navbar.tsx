@@ -6,8 +6,8 @@ import React from "react";
 const Navbar = async () => {
   const session = await auth();
   return (
-    <header className="px-5 py-3 bg-emerald-950 shadow-sm font-work-sans">
-      <nav className="flex justify-between items-center">
+    <header className="px-5 py-3 bg-amber-50 shadow-sm font-work-sans">
+      <nav className="flex justify-between items-center text-black">
         <Link href="/">
           <Image src="/logo.png" alt="logo" width={120} height={20} />
         </Link>
